@@ -61,13 +61,13 @@ const Contact = () => {
             <form ref={refForm} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
+                  <input placeholder="Name" type="text" name="from_name" required />
                 </li>
                 <li className="half">
                   <input
                     placeholder="Email"
                     type="email"
-                    name="email"
+                    name="from_email"
                     required
                   />
                 </li>
@@ -75,7 +75,7 @@ const Contact = () => {
                   <input
                     placeholder="Subject"
                     type="text"
-                    name="subject"
+                    name="from_title"
                     required
                   />
                 </li>
