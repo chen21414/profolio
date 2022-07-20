@@ -18,7 +18,7 @@ const Sidebar = () => (
   <div className="nav-bar">
     <Link className="logo" to="/">
       <img src={LogoS} alt="logo" />
-      <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+      {/* <img className="sub-logo" src={LogoSubtitle} alt="slobodan" /> */}
     </Link>
     <nav>
       <NavLink exact="true" activeclassname="active" to="/">
@@ -45,7 +45,7 @@ const Sidebar = () => (
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.linkedin.com/in/mike-chen-865304a7/"
+          href="https://github.com/chen21414?tab=repositories"
         >
           <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
         </a>
@@ -54,12 +54,12 @@ const Sidebar = () => (
         <a
           target="_blank"
           rel="noreferrer"
-          href="https://www.linkedin.com/in/mike-chen-865304a7/"
+          href="https://www.youtube.com/channel/UCBVuON6FsYVbNE_4dAUHt3g/videos"
         >
           <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
         </a>
       </li>
-      <li>
+      {/* <li>
         <a
           target="_blank"
           rel="noreferrer"
@@ -67,7 +67,7 @@ const Sidebar = () => (
         >
           <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
         </a>
-      </li>
+      </li> */}
     </ul>
   </div>
 );
